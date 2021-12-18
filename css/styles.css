@@ -1,9 +1,9 @@
 :root {
   --body-text-color: #212121;
-  --header-color: #212121;
   --accent-color: #2196f3;
   --first-logo-color: #212121;
   --second-logo-color: #ffffff;
+  --primary-white-color: #ffffff;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-  background: #ffffff;
+  background: var(--primary-white-color);
 }
 
 /*------------ logo-------------*/
@@ -40,7 +40,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-text-color);
 }
 
 /*--------------HEADER-------------*/
@@ -50,7 +50,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--body-text-color);
 }
 
 .header-tel {
@@ -87,7 +87,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--primary-white-color);
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /*----------------- abaut -------------------*/
@@ -109,7 +109,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--body-text-color);
 }
 
 .section-text {
@@ -129,7 +129,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-text-color);
 }
 
 .team-member {
@@ -139,7 +139,7 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-text-color);
 }
 
 .team-description {
@@ -152,7 +152,7 @@ body {
 }
 
 .team-item {
-  background: #ffffff;
+  background: var(--primary-white-color);
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -170,7 +170,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--second-logo-color);
 }
 
 .foother-address {
@@ -179,7 +179,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .foother-tel {
@@ -198,11 +198,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--body-text-color);
 }
 
 .portofolio-item {
-  background: #ffffff;
+  background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
@@ -219,7 +219,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-text-color);
   cursor: pointer;
 }
 .portofolio-btn:hover,
