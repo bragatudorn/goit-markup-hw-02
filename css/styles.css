@@ -86,6 +86,7 @@ body {
 
 .hero-btn {
   background: var(--accent-color);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -226,6 +227,7 @@ body {
 }
 
 .portofolio-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
