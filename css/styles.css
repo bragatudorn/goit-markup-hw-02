@@ -86,8 +86,7 @@ body {
 
 .hero-btn {
   background: var(--accent-color);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -124,7 +123,7 @@ body {
 }
 
 .section-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -148,8 +147,7 @@ body {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--body-text-color);
@@ -157,8 +155,7 @@ body {
 
 .team-description {
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.19;  
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--discription-color);
@@ -188,7 +185,6 @@ body {
 
 .foother-address {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -197,7 +193,6 @@ body {
 
 .foother-tel {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
